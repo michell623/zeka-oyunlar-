@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZekaPark - Zeka Oyunları</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #ff9800; padding: 20px; color: white; text-align: center; }
+    nav { background: #333; color: white; display: flex; justify-content: center; padding: 10px 0; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    .hero { padding: 40px; text-align: center; background: #fff; }
+    .hero h1 { font-size: 2em; margin-bottom: 10px; }
+    .hero button { padding: 10px 20px; font-size: 1em; background: #ff9800; border: none; color: white; cursor: pointer; }
+    .games, .leaderboard { padding: 20px; background: #fff; margin-top: 10px; }
+    .game-card { background: #e3f2fd; padding: 15px; margin: 10px 0; border-radius: 10px; }
+    footer { background: #333; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZekaPark</h1>
+    <p>Zihnini Eğlendir, Bilginle Yarış!</p>
+  </header>
+  <nav>
+    <a href="#">Ana Sayfa</a>
+    <a href="#">Oyunlar</a>
+    <a href="#">Yarışmalar</a>
+    <a href="#">Hakkımızda</a>
+    <a href="#">Giriş / Kayıt Ol</a>
+  </nav>
+  <div class="hero">
+    <h1>Zeka ve eğlencenin buluşma noktası!</h1>
+    <button>Hemen Oyna</button>
+  </div>
+  <div class="games">
+    <h2>Popüler Oyunlar</h2>
+    <div class="game-card">🧠 Günlük Zeka Sorusu</div>
+    <div class="game-card">🔤 Kelime Yarışı</div>
+    <div class="game-card">⏱️ Süreli Quizler</div>
+  </div>
+  <div class="leaderboard">
+    <h2>En İyi Oyuncular</h2>
+    <ul>
+      <li>1. ZekiBeyin - 1240 Puan</li>
+      <li>2. AkilliKiz - 1190 Puan</li>
+      <li>3. BilgeAdam - 1120 Puan</li>
+    </ul>
+  </div>
+  <footer>
+    <p>&copy; 2025 ZekaPark | Daha fazlası için: <a href="https://gptonline.ai/tr/" style="color: #ff9800;">gptonline.ai/tr</a></p>
+  </footer>
+</body>
+</html>
